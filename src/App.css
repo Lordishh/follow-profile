@@ -1,0 +1,87 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.wrapper-card {
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+}
+
+.profile-card {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: .8rem;
+  justify-content: space-between;
+}
+
+.profile-card-header {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.profile-card-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 1000px;
+}
+
+.profile-card-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-wrapper-name {
+  display: flex;
+  gap: 0.2rem;
+  align-items: center;
+}
+
+.profile-card-alias{
+  opacity: .6;
+}
+
+.profile-card-btn {
+  cursor: pointer;
+  margin-left: 16px;
+  border: 0;
+  border-radius: 999px;
+  padding: 6px 16px;
+  font-weight: bold;
+  transition: .3s ease background-color;
+}
+
+.profile-card-btn:hover {
+  opacity: .8;
+}
+
+.profile-card-btn.is-following {
+  border: 1px solid #bbb;
+  background-color: transparent;
+  color: #fff;
+  width: 140px;
+}
+
+
+.profile-card-btn.is-following:hover {
+  color: red;
+  background: rgba(195, 68, 68, 0.187);
+  border: 1px solid red;
+  transition: .3s ease all;
+}
+
+.profile-card-btn.is-following:hover .profile-card-text {
+  display: none;
+}
+
+.profile-card-btn.is-following:hover .profile-card-stopFollow {
+  display: block;
+}
+
+.profile-card-stopFollow {
+  display: none;
+}
