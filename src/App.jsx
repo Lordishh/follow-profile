@@ -13,14 +13,15 @@ function App() {
 
         {
           users.map((user) => {
-            const {id, name, alias, image, initialFollowing, verified} = user;
+            const {id, name, alias, image, initialFollowing, verified, linkProfile} = user;
 
             return (
               <ProfileCard
                 key={id}
                 name={name}
-                alias={alias}
                 verified={verified}
+                alias={alias}
+                linkProfile={linkProfile}
                 image={image}
                 initialFollowing={initialFollowing}
                 formatAlias={formatAlias}
