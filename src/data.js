@@ -1,3 +1,8 @@
+import Messi from "./assets/images/messi-photo.svg"
+import Enuel from "./assets/images/enu-photo.svg"
+import Teddy from "./assets/images/swims-photo.svg"
+import Laurie from "./assets/images/laurie-photo.svg"
+
 export const users = [
   {
     id: 1,
@@ -5,7 +10,7 @@ export const users = [
     alias: 'enudev',
     linkProfile: 'https://x.com/EnuDev',
     initialFollowing: true,
-    image: 'https://scontent-eze1-1.xx.fbcdn.net/v/t39.30808-6/392938235_7155975511088920_7046952057557928731_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGWJiZu24GokDot6V-ieex6mwxY9VYqaDmbDFj1VipoOXjjkroYH1MUwkolo8WjGxaGTl1vqyr4NlGsVrwVRK8Z&_nc_ohc=hhxv58l3AUkQ7kNvgEJkwNv&_nc_ht=scontent-eze1-1.xx&oh=00_AYCZdsB-jDo38c41qJZiWpx9EPjC5531T4p5mkE0I2xSYw&oe=6672F20D',
+    image: Enuel,
   },
   {
     id: 2,
@@ -14,7 +19,7 @@ export const users = [
     linkProfile: 'https://x.com/Messismo10',
     verified: true,
     initialFollowing: true,
-    image: "https://scontent-eze1-1.xx.fbcdn.net/v/t1.6435-1/199385759_345470910277839_3988273979229903886_n.jpg?stp=dst-jpg_p200x200&_nc_cat=1&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHjVSuFgv78B1v9sb2HByLe_R1YrUnrs9b9HVitSeuz1hX4wWQ_rsNFzfxN_f4wrqjaxU5KYb31PSlecoCXwV7s&_nc_ohc=Z4luAzzFVqQQ7kNvgF3tkZ7&_nc_ht=scontent-eze1-1.xx&oh=00_AYDNp66vnoxtZJwJxCJ1pjPcGnOpgT9vjz5Z-uvPiYBrLA&oe=66955285",
+    image: Messi,
   },
   {
     id: 3,
@@ -23,7 +28,7 @@ export const users = [
     linkProfile: 'https://x.com/hughlaurie',
     verified: true,
     initialFollowing: false,
-    image: "https://pbs.twimg.com/profile_images/378800000607017706/cad02238d8ab28febfbdec2978c4a810_400x400.jpeg",
+    image: Laurie,
   },
   {
     id: 4,
@@ -32,6 +37,6 @@ export const users = [
     linkProfile: 'https://x.com/teddyswims',
     verified: true,
     initialFollowing: false,
-    image: "https://pbs.twimg.com/profile_images/1702351138891485184/V2Duop2z_400x400.jpg",
+    image: Teddy,
   },
 ]
